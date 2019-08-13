@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Sales>
+            <version>0.0.1</version>
+        </Ampersand_Sales>
+    </modules>
+    <global>
+        <helpers>
+            <ampersand_sales>
+                <class>Ampersand_Sales_Helper</class>
+            </ampersand_sales>
+        </helpers>
+        <models>
+            <ampersand_sales>
+                <class>Ampersand_Sales_Model</class>
+            </ampersand_sales>
+        </models>
+    </global>
+</config>

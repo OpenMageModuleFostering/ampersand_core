@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <ampersand_api translate="title" module="ampersand_api">
+                <model>ampersand_api/catalog_product</model>
+                <title>Ampersand Api</title>
+                <acl>ampersand_api</acl>
+                <methods>
+                    <info translate="title" module="ampersand_api">
+                        <title>Retrive Product Info</title>
+                        <method>info</method>
+                        <acl>ampersand_api/info</acl>
+                    </info>
+                </methods>                
+            </ampersand_api>
+        </resources>
+        <acl>
+            <resources>
+                <ampersand_api translate="title" module="ampersand_api">
+                    <title>Ampersand Api</title>
+                    <info translate="title" module="ampersand_api">
+                        <title>Retrive Product Info</title>
+                    </info>
+                </ampersand_api>
+            </resources>
+        </acl>
+    </api>
+</config>

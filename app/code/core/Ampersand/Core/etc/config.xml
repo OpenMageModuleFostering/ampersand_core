@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Core>
+            <version>0.2.6</version>
+        </Ampersand_Core>
+    </modules>
+    <global>
+        <helpers>
+            <ampersand_core>
+                <class>Ampersand_Core_Helper</class>
+            </ampersand_core>
+        </helpers>
+        <models>
+            <ampersand_core>
+                <class>Ampersand_Core_Model</class>
+                <resourceModel>ampersand_core_mysql4</resourceModel>
+            </ampersand_core>
+            <ampersand_core_mysql4>
+                <class>Ampersand_Core_Model_Mysql4</class>
+                <entities>
+                    <value>
+                        <table>ampersand_core_value</table>
+                    </value>
+                </entities>
+            </ampersand_core_mysql4>
+        </models>
+        <resources>
+            <ampersand_core_setup>
+                <setup>
+                    <module>Ampersand_Core</module>
+                </setup>
+            </ampersand_core_setup>
+        </resources>
+    </global>
+</config>

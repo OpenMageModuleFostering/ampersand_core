@@ -1,0 +1,9 @@
+11/01/2013 - v0.2.6 - Added Ampersand System module.
+
+10/01/2013 - v0.2.5 - Added Ampersand Api module.
+
+07/01/2013 - v0.2.4 - Various additional functionality. No major changes.
+
+17/10/2011 - v0.2.0 - Moved Ampersand_Integration to its own module.
+
+28/09/2011 - v0.1.0 - Initial release.

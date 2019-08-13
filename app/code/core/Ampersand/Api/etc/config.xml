@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Api>
+            <version>0.1.0</version>
+        </Ampersand_Api>
+    </modules>
+    <global>
+        <models>
+            <ampersand_api>
+                <class>Ampersand_Api_Model</class>
+            </ampersand_api>
+        </models>
+        <helpers>
+            <ampersand_api>
+                <class>Ampersand_Api_Helper</class>
+            </ampersand_api>
+        </helpers>
+    </global>
+</config>

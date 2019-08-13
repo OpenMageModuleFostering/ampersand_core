@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Adminhtml>
+            <active>true</active>
+            <codePool>core</codePool>
+            <depends>
+                <Ampersand_Core/>
+            </depends>
+        </Ampersand_Adminhtml>
+        
+        <Ampersand_Api>
+            <active>true</active>
+            <codePool>core</codePool>
+            <depends>
+                <Ampersand_Core/>
+                <Ampersand_Sales/>
+            </depends>
+        </Ampersand_Api>
+
+        <Ampersand_Catalog>
+            <active>true</active>
+            <codePool>core</codePool>
+            <depends>
+                <Ampersand_Core/>
+            </depends>
+        </Ampersand_Catalog>
+        
+        <Ampersand_Core>
+            <active>true</active>
+            <codePool>core</codePool>
+        </Ampersand_Core>
+        
+        <Ampersand_Fakepay>
+            <active>true</active>
+            <codePool>core</codePool>
+        </Ampersand_Fakepay>
+        
+        <Ampersand_Sales>
+            <active>true</active>
+            <codePool>core</codePool>
+        </Ampersand_Sales>
+        
+        <Ampersand_System>
+            <active>true</active>
+            <codePool>core</codePool>
+        </Ampersand_System>
+    </modules>
+</config>

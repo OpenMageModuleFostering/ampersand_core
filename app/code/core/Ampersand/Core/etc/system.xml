@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tabs>
+        <ampersand_commerce translate="label" module="ampersand_core">
+            <label>Ampersand Commerce</label>
+            <sort_order>150</sort_order>
+        </ampersand_commerce>
+    </tabs>
+</config>

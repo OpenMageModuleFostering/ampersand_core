@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <ampersand_fakepay>
+            <version>0.0.1</version>
+        </ampersand_fakepay>
+    </modules>
+    <global>
+        <models>
+            <ampersand_fakepay>
+                <class>Ampersand_Fakepay_Model</class>
+            </ampersand_fakepay>
+        </models>
+        <helpers>
+            <ampersand_fakepay>
+                <class>Ampersand_Fakepay_Helper</class>
+            </ampersand_fakepay>
+        </helpers>
+    </global>
+    <default>
+        <payment>
+            <ampersand_fakepay>
+                <active>0</active>
+                <title>Ampersand Dummy Payments</title>
+                <cctypes>VI,MC</cctypes>
+                <model>ampersand_fakepay/method</model>
+                <order_status>processing</order_status>
+                <payment_action>authorize_capture</payment_action>
+            </ampersand_fakepay>
+        </payment>
+    </default>
+</config>

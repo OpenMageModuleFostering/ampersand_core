@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_System>
+            <version>0.0.1</version>
+        </Ampersand_System>
+    </modules>
+    <global>
+        <helpers>
+            <ampersand_system>
+                <class>Ampersand_System_Helper</class>
+            </ampersand_system>
+        </helpers>
+        <models>
+            <ampersand_system>
+                <class>Ampersand_System_Model</class>
+            </ampersand_system>
+        </models>
+    </global>
+    <phpunit>
+        <suite>
+            <modules>
+                 <Ampersand_System/>
+            </modules>
+        </suite>
+    </phpunit>
+</config>

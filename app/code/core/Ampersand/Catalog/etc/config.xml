@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ampersand_Catalog>
+            <version>0.0.1</version>
+        </Ampersand_Catalog>
+    </modules>
+    <global>
+        <helpers>
+            <ampersand_catalog>
+                <class>Ampersand_Catalog_Helper</class>
+            </ampersand_catalog>
+        </helpers>
+    </global>
+</config>

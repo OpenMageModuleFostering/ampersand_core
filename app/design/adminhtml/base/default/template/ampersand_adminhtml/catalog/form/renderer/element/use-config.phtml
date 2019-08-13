@@ -1,0 +1,35 @@
+<?php $_readOnly = $this->getElement()->getReadonly() ?>
+
+<input type="checkbox" 
+       id="<?php echo $this->getUseConfigAttributeCode() ?>" 
+       name="<?php echo $this->getUseConfigInputName() ?>" 
+       value="1"
+       <?php echo $this->getShouldUseConfig() ? 'checked="checked"' : '' ?> 
+       onclick="toggleValueElements(this, this.parentNode);toggleHiddenElement(this)"
+       class="checkbox"
+       <?php echo $_readOnly ?>
+/>
+<label for="<?php echo $this->getUseConfigAttributeCode() ?>" class="normal">
+    <?php echo Mage::helper('catalog')->__('Use Config Settings') ?>
+</label>
+
+<input type="hidden"
+       name="<?php echo $this->getUseConfigHiddenInputName() ?>"
+       value="<?php echo $this->getUseConfigHiddenInputValue() ?>"
+/>
+
+<?php if (!$_readOnly): ?>
+    <script type="text/javascript">
+    //<![CDATA[
+        Event.observe(window, 'load', function() {
+            var $useDefaultElement = $('<?php echo $this->getElement()->getHtmlId() ?>_default');
+            if ($useDefaultElement && $useDefaultElement.checked) {
+                toggleValueElements($useDefaultElement, $useDefaultElement.parentNode.parentNode);
+            } else {
+                var $useConfigElement = $('<?php echo $this->getUseConfigAttributeCode() ?>');
+                toggleValueElements($useConfigElement, $useConfigElement.parentNode);
+            }
+        });
+    //]]>
+    </script>
+<?php endif ?>

@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ampersand_Core",
+    "type": "magento-module",
+    "license": "GNU-General-Public-License-(GPL)",
+    "homepage": "",
+    "description": "Ampersand Core utility modules from Ampersand Commerce.",
+    "authors": [
+    {
+        "name": "AmpersandHQ",
+        "email": "magento@ampersandcommerce.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
